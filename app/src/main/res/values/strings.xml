@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">Ramzan</string>
+    <string name="title_activity_home_screen">HomeScreen</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_ahadess">AhadessActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="hadeesarray">
+        <item>Jo shakhs apny (Musalman) bhai k kam ata rehta hay Allah usky kam main (madad karta) rehta hay ” (BUKHARI V2 P862 )</item>
+        <item>Kisi Musalman ko jaiz nai k wo kisi Musalman ko khofzada kary ” (ABU DAUD V4 P391 H5004)</item>
+        <item>Jis nay Meri Sunnat say mohabat ki us nay Mujh say mohabat ki or jis nay Mujh say mohabat ki wo Jannat main Mere sath hoga (IBNE ASAKIR V9 P343)</item>
+        <item>Maa-Baap Ka Naam Lekar Pukarna Aur Aurat Ne Shohar Ka Naam
+
+Lekar Pukarna Maqrooh Hai. Ye Adab Ke Khilaf Hai.
+
+(Bahar-e-Shariat)</item>
+
+        <item>Hadees 14</item>
+        <item>Hadees 15</item>
+        <item>Hadees 16</item>
+        <item>Hadees 17</item>
+        <item>Hadees 18</item>
+        <item>Hadees 19</item>
+        <item>Hadees 20</item>
+        <item>Hadees 21</item>
+        <item>Hadees 22</item>
+        <item>Hadees 23</item>
+        <item>Hadees 24</item>
+        <item>Hadees 25</item>
+        <item>Hadees 26</item>
+
+
+    </string-array>
+
+    <string-array name="cities">
+        <item>Abbottad</item>
+        <item>Dera Ismail Khan</item>
+        <item>Hyderabad</item>
+        <item>Islamabad</item>
+        <item>Karachi</item>
+        <item>Khuzdar</item>
+        <item>Lahore</item>
+        <item>Multan</item>
+        <item>Peshawar</item>
+        <item>Quetta</item>
+        <item>Sibbi</item>
+        <item>Sukkur</item>
+        <item>testtable</item>
+
+
+    </string-array>
+</resources>

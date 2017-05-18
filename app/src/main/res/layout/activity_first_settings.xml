@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.haider.ramzan.FirstSettings">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg2">
+
+        <ListView
+            android:id="@+id/listView_cities"
+            android:layout_width="match_parent"
+            android:layout_height="600px"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:footerDividersEnabled="false"
+            android:headerDividersEnabled="false" />
+
+        <TextView
+            android:id="@+id/itemtext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/savedcity_text"
+            android:layout_alignBottom="@+id/savedcity_text"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="27dp"
+            android:layout_marginStart="27dp"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/savedcity_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="27dp"
+            android:text="*Your City*"
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:layout_above="@+id/save_settings"
+            android:layout_alignLeft="@+id/radioGroup"
+            android:layout_alignStart="@+id/radioGroup" />
+
+        <Button
+            android:id="@+id/save_settings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Firqa "
+            android:textColor="@android:color/background_light"
+            android:textSize="18sp"
+            android:layout_alignTop="@+id/radioGroup"
+            android:layout_alignLeft="@+id/itemtext"
+            android:layout_alignStart="@+id/itemtext" />
+
+        <RadioGroup
+            android:id="@+id/radioGroup"
+            android:layout_width="300px"
+            android:layout_height="150px"
+            android:layout_marginTop="28dp"
+            android:layout_below="@+id/listView_cities"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="51dp"
+            android:layout_marginEnd="51dp">
+
+            <RadioButton
+                android:id="@+id/radio1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/radioGroup"
+                android:layout_alignStart="@+id/radioGroup"
+                android:layout_below="@+id/textView2"
+                android:text="Fiqa e Hanfiya"
+                android:textColor="@android:color/background_light" />
+
+            <RadioButton
+                android:id="@+id/radio2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Fiqa e Jafriya"
+                android:textColor="@android:color/background_light" />
+
+        </RadioGroup>
+
+
+    </RelativeLayout>
+
+
+
+</android.support.constraint.ConstraintLayout>
